@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Riya Sharma | Software Developer Portfolio</title>
+<meta name="description" content="Portfolio of Riya Sharma, B.Tech (CSE) student and aspiring software developer.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<canvas id="bg-canvas"></canvas>
+<div class="blob b1"></div>
+<div class="blob b2"></div>
+<div class="blob b3"></div>
+<div class="cursor-glow" id="cursorGlow"></div>
+
+<!-- ============ NAVIGATION ============ -->
+<nav id="navbar">
+  <a href="#home" class="logo">Riya<span>.dev</span></a>
+  <ul class="nav-links" id="navLinks">
+    <li><a href="#about">About</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#journey">Journey</a></li>
+    <li><a href="#achievements">Achievements</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+  <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu">
+    <span></span><span></span><span></span>
+  </button>
+</nav>
+
+<!-- ============ HERO ============ -->
+<section id="home">
+  <div class="hero">
+    <div>
+      <p class="hero-tag reveal">Hello, I'm</p>
+      <h1 class="reveal reveal-delay-1">Riya <span class="grad-text">Sharma</span></h1>
+      <div class="typed-wrap reveal reveal-delay-2">
+        <span class="typed" id="typed"></span><span class="caret"></span>
+      </div>
+      <p class="hero-desc reveal reveal-delay-2">
+        B.Tech (CSE) student from Sri Ganganagar, Rajasthan, building clean, responsive web experiences
+        with HTML, CSS and Python while sharpening my DSA and system design skills.
+      </p>
+      <div class="hero-buttons reveal reveal-delay-3">
+        <a href="#projects" class="btn btn-primary">View My Work &rarr;</a>
+        <a href="#contact" class="btn btn-ghost">Let's Talk</a>
+      </div>
+    </div>
+
+    <div class="avatar-wrap reveal reveal-delay-2">
+      <div class="avatar-ring"></div>
+      <div class="avatar"><span>RS</span></div>
+      <div class="float-chip c-a">&lt;/&gt; HTML &amp; CSS</div>
+      <div class="float-chip c-c">🐍 Python</div>
+      <div class="float-chip c-b">🚀 Hackathon Ready</div>
+    </div>
+  </div>
+  <a href="#about" class="scroll-hint" aria-label="Scroll down"></a>
+</section>
+
+<!-- ============ ABOUT ============ -->
+<section id="about">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="eyebrow">About Me</span>
+      <h2>Passionate about building <span class="grad-text">things for the web</span></h2>
+    </div>
+
+    <div class="about-grid">
+      <div class="glass about-card reveal">
+        <p><strong>Career Objective.</strong> I am eager to launch my career as a software developer. With a strong
+          foundation in HTML, CSS and basic Python, I am excited to apply my academic knowledge in a professional setting.</p>
+        <p>I am looking for a dynamic position where I can collaborate with experienced developers, strengthen my skills
+          in Data Structures and Algorithms (DSA), and contribute to innovative projects. I am committed to staying
+          updated with core concepts like System Design.</p>
+        <p>Outside of code, I enjoy reading, exploring emerging technologies and writing poetry.</p>
+        <div class="stats">
+          <div class="glass stat"><h3 class="counter" data-count="3">0</h3><p>Projects Built</p></div>
+          <div class="glass stat"><h3 class="counter" data-count="7">0</h3><p>Certificates &amp; Awards</p></div>
+          <div class="glass stat"><h3 class="counter" data-count="2">0</h3><p>Languages Spoken</p></div>
+        </div>
+      </div>
+
+      <div class="glass info-list reveal reveal-delay-2">
+        <div class="info-item">
+          <div class="info-icon">🎓</div>
+          <div><small>Education</small>B.Tech (CSE), Bikaner Technical University</div>
+        </div>
+        <div class="info-item">
+          <div class="info-icon">📍</div>
+          <div><small>Location</small>Sri Ganganagar, Rajasthan, India</div>
+        </div>
+        <div class="info-item">
+          <div class="info-icon">✉️</div>
+          <div><small>Email</small>riyasharma152008@gmail.com</div>
+        </div>
+        <div class="info-item">
+          <div class="info-icon">🗣️</div>
+          <div><small>Languages</small>Hindi, English</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ SKILLS ============ -->
+<section id="skills">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="eyebrow">Skills</span>
+      <h2>My <span class="grad-text">Toolkit</span></h2>
+      <p>Where I'm strong today and where I'm growing.</p>
+    </div>
+
+    <div class="skills-grid">
+      <div class="glass skill-card reveal">
+        <h3><span class="dot"></span>Programming &amp; Web</h3>
+        <div class="skill"><div class="skill-top"><span>HTML5</span><span>Strong</span></div><div class="bar"><div class="bar-fill" data-width="88"></div></div></div>
+        <div class="skill"><div class="skill-top"><span>CSS3</span><span>Strong</span></div><div class="bar"><div class="bar-fill" data-width="82"></div></div></div>
+        <div class="skill"><div class="skill-top"><span>Python</span><span>Intermediate</span></div><div class="bar"><div class="bar-fill" data-width="68"></div></div></div>
+      </div>
+
+      <div class="glass skill-card reveal reveal-delay-1">
+        <h3><span class="dot"></span>Growing Skills</h3>
+        <div class="skill"><div class="skill-top"><span>JavaScript</span><span>Learning</span></div><div class="bar"><div class="bar-fill" data-width="40"></div></div></div>
+        <div class="skill"><div class="skill-top"><span>Data Structures &amp; Algorithms</span><span>Learning</span></div><div class="bar"><div class="bar-fill" data-width="35"></div></div></div>
+        <div class="skill"><div class="skill-top"><span>SQL</span><span>Learning</span></div><div class="bar"><div class="bar-fill" data-width="32"></div></div></div>
+        <div class="skill"><div class="skill-top"><span>System Design</span><span>Exploring</span></div><div class="bar"><div class="bar-fill" data-width="22"></div></div></div>
+      </div>
+
+      <div class="glass skill-card reveal reveal-delay-2">
+        <h3><span class="dot"></span>Tools &amp; Productivity</h3>
+        <div class="chips">
+          <span class="chip">Microsoft Word</span>
+          <span class="chip">Microsoft Excel</span>
+          <span class="chip">Microsoft PowerPoint</span>
+          <span class="chip">Web Layout Design</span>
+          <span class="chip">API Integration</span>
+          <span class="chip">Responsive Design</span>
+          <span class="chip">Git basics</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ PROJECTS ============ -->
+<section id="projects">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="eyebrow">Projects</span>
+      <h2>Things I've <span class="grad-text">Built</span></h2>
+      <p>Hands-on work from college and self-learning.</p>
+    </div>
+
+    <div class="projects-grid">
+      <article class="glass project reveal tilt">
+        <div class="project-visual pv-1"><span>🎓</span></div>
+        <div class="project-body">
+          <h3>Campus Connect</h3>
+          <p>A centralized college and student services portal. I co-developed the front-end layout and integrated it
+            with a Python backend. Features include study materials (notes and PYQs), an attendance tracker with a
+            75% criterion, announcements and feedback modules.</p>
+          <div class="tags"><span class="tag">HTML5</span><span class="tag">CSS3</span><span class="tag">Python</span><span class="tag">Team Project</span></div>
+        </div>
+      </article>
+
+      <article class="glass project reveal reveal-delay-1 tilt">
+        <div class="project-visual pv-2"><span>🌍</span></div>
+        <div class="project-body">
+          <h3>Travel Blog: Kusum Sarovar, Vrindavan</h3>
+          <p>A self-coded travel blog page styled with custom CSS. It includes embedded media, a clean layout and
+            structured navigation so readers can explore the place with ease.</p>
+          <div class="tags"><span class="tag">HTML5</span><span class="tag">CSS3</span><span class="tag">Layout</span></div>
+        </div>
+      </article>
+
+      <article class="glass project reveal reveal-delay-2 tilt">
+        <div class="project-visual pv-3"><span>📚</span></div>
+        <div class="project-body">
+          <h3>Web Development Learning Hub</h3>
+          <p>An educational web page I built while learning front-end development. It covers core concepts, embedded
+            video tutorials and curated resource links for other beginners.</p>
+          <div class="tags"><span class="tag">HTML5</span><span class="tag">CSS3</span><span class="tag">Education</span></div>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ============ JOURNEY ============ -->
+<section id="journey">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="eyebrow">Journey</span>
+      <h2>Academic <span class="grad-text">Path</span></h2>
+    </div>
+
+    <div class="timeline" id="timeline">
+      <div class="tl-item reveal">
+        <div class="glass tl-card">
+          <div class="tl-year">2026 – 2030</div>
+          <h3>B.Tech (Computer Science &amp; Engineering)</h3>
+          <h4>Bikaner Technical University (BTU) · SGI, Sri Ganganagar</h4>
+          <p>Building a foundation in programming, data structures and web technologies.</p>
+        </div>
+      </div>
+      <div class="tl-item reveal">
+        <div class="glass tl-card">
+          <div class="tl-year">2026</div>
+          <h3>Class 12th</h3>
+          <h4>CBSE · Arorvansh Public School (APS), Sri Ganganagar</h4>
+        </div>
+      </div>
+      <div class="tl-item reveal">
+        <div class="glass tl-card">
+          <div class="tl-year">2024</div>
+          <h3>Class 10th</h3>
+          <h4>CBSE · Arorvansh Public School (APS), Sri Ganganagar</h4>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ ACHIEVEMENTS ============ -->
+<section id="achievements">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="eyebrow">Achievements</span>
+      <h2>Certifications &amp; <span class="grad-text">Awards</span></h2>
+    </div>
+
+    <div class="ach-grid">
+      <div class="glass ach reveal">
+        <div class="ach-icon">🥇</div>
+        <h3>IT-Wizard Classic Programme</h3>
+        <div class="org">NIIT NGuru · 2018–2019</div>
+        <p>Completed with an "Excellent" rating and earned a Gold Certificate. Learned core IT and computer application fundamentals.</p>
+      </div>
+      <div class="glass ach reveal reveal-delay-1">
+        <div class="ach-icon">🤖</div>
+        <h3>Getting Started with Artificial Intelligence</h3>
+        <div class="org">IBM SkillsBuild &amp; Edunet Foundation · Sept 2026</div>
+        <p>Completed a guided learning experience covering foundational AI concepts, applications and professional technology practices.</p>
+      </div>
+      <div class="glass ach reveal reveal-delay-2">
+        <div class="ach-icon">🏆</div>
+        <h3>Employability Skills Training</h3>
+        <div class="org">Naandi Mahindra Bridge Classroom · Sept 2026</div>
+        <p>Earned 3rd rank (trophy) for overall performance. Learned interview preparation, grooming, resume building and career objective identification.</p>
+      </div>
+      <div class="glass ach reveal">
+        <div class="ach-icon">🧪</div>
+        <h3>SOF International English Olympiad</h3>
+        <div class="org">Science Olympiad Foundation · Dec 2023</div>
+        <p>Achieved school Rank 1 and a regional rank of 2082.</p>
+      </div>
+      <div class="glass ach reveal reveal-delay-1">
+        <div class="ach-icon">🎤</div>
+        <h3>District Debate Competition</h3>
+        <div class="org">Rajasthan Marudhara Gramin Bank · Nov 2022</div>
+        <p>Secured 3rd prize in a debate on "Corruption Free India", building public speaking and communication skills.</p>
+      </div>
+      <div class="glass ach reveal reveal-delay-2">
+        <div class="ach-icon">🎨</div>
+        <h3>National Painting Competition</h3>
+        <div class="org">94.3 MyFM · 2019</div>
+        <p>Certificate of participation in MyFM Rangrezz Season III.</p>
+      </div>
+      <div class="glass ach reveal">
+        <div class="ach-icon">🌱</div>
+        <h3>Social Awareness &amp; Health Programme</h3>
+        <div class="org">Human Benevolent Society &amp; WHO Guidelines · Dec 2016</div>
+        <p>Took part in a cancer awareness and control initiative, developing community outreach and social communication skills.</p>
+      </div>
+    </div>
+
+    <div class="soft-wrap reveal">
+      <h3>Interpersonal Skills</h3>
+      <div class="chips" style="justify-content:center">
+        <span class="chip">Analytical Thinking</span>
+        <span class="chip">Logical Problem Solving</span>
+        <span class="chip">Public Speaking</span>
+        <span class="chip">Structured Communication</span>
+        <span class="chip">Learning Agility</span>
+        <span class="chip">Adaptability</span>
+        <span class="chip">Discipline &amp; Focus</span>
+        <span class="chip">Team Collaboration</span>
+        <span class="chip">Group Discussion</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CONTACT ============ -->
+<section id="contact">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="eyebrow">Contact</span>
+      <h2>Let's <span class="grad-text">Connect</span></h2>
+      <p>Open to internships, freelance web projects and collaboration. Say hello!</p>
+    </div>
+
+    <div class="contact-grid">
+      <div class="glass contact-info reveal">
+        <h3>Get in touch</h3>
+        <p>Feel free to reach out through any of the channels below.</p>
+        <a class="contact-item" href="mailto:riyasharma152008@gmail.com">
+          <div class="info-icon">✉️</div>
+          <div><small>Email</small><br>riyasharma152008@gmail.com</div>
+        </a>
+        <a class="contact-item" href="tel:+919602213857">
+          <div class="info-icon">📞</div>
+          <div><small>Phone</small><br>+91 96022 13857</div>
+        </a>
+        <div class="contact-item">
+          <div class="info-icon">📍</div>
+          <div><small>Location</small><br>Sri Ganganagar, Rajasthan</div>
+        </div>
+      </div>
+
+      <form class="glass contact-form reveal reveal-delay-1" id="contactForm">
+        <div class="field">
+          <input type="text" id="name" placeholder=" " required>
+          <label for="name">Your Name</label>
+        </div>
+        <div class="field">
+          <input type="email" id="email" placeholder=" " required>
+          <label for="email">Your Email</label>
+        </div>
+        <div class="field">
+          <textarea id="message" placeholder=" " required></textarea>
+          <label for="message">Your Message</label>
+        </div>
+        <button type="submit" class="btn btn-primary" style="justify-content:center">Send Message &rarr;</button>
+        <p class="form-note" id="formNote">This form opens your email app with your message ready to send.</p>
+      </form>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <p>Designed &amp; built by <span class="grad-text">Riya Sharma</span> · © <span id="year"></span></p>
+</footer>
+
+<button class="to-top" id="toTop" aria-label="Back to top">↑</button>
+
+<script src="script.js"></script>
+</body>
+</html>
